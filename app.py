@@ -196,6 +196,9 @@ class MetadataPopulatorForImageClassifier(object):
 
 
 
+@app.route("/status")
+def hello_world():
+    return "<h1>Avocado Utils are running!</h1>"
 
 @app.post("/add-metadata/image-segmentation")
 def addMetaDataImageSegmentation():
